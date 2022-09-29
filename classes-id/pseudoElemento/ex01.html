@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limks</title>
+    <style>
+        a{
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: rgb(0, 0, 71);
+        }
+
+        a:hover{
+            color: blueviolet;
+        }
+        a:active{
+            color: red;
+            text-decoration: underline
+        }
+
+        a::after{
+            content: '[link]';
+            color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Persolanlizando links</h1>
+
+    <ul>
+        <li><a href="https://www.alura.com.br/">Alura</a>
+        </li>
+        <li><a href="https://www.youtube.com/">Canal do youtub</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Site do Curso em video</a></li>
+    </ul>
+</body>
+</html>
