@@ -8,17 +8,28 @@
     <style>
         body{
             height: 98vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens-cap19/wallpaper002.jpg);
 
             background-position: top center;
             background-repeat: no-repeat;
             background-size: cover;
+
+            background-attachment: fixed;*/
+
+            /*
+                shorthand - backgroud
+
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens-cap19/wallpaper002.jpg) center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -30,6 +41,10 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam aliquid laboriosam accusantium distinctio rerum atque reiciendis quos ab ipsa aliquam dolor, minima assumenda modi cupiditate. Rem neque voluptate laboriosam.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur alias doloremque magni impedit tempora quia tenetur culpa, nihil veritatis deserunt, rem sunt explicabo voluptatem placeat necessitatibus quisquam minus, nam omnis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam aliquid laboriosam accusantium distinctio rerum atque reiciendis quos ab ipsa aliquam dolor, minima assumenda modi cupiditate. Rem neque voluptate laboriosam.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur alias doloremque magni impedit tempora quia tenetur culpa, nihil veritatis deserunt, rem sunt explicabo voluptatem placeat necessitatibus quisquam minus, nam omnis!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam aliquid laboriosam accusantium distinctio rerum atque reiciendis quos ab ipsa aliquam dolor, minima assumenda modi cupiditate. Rem neque voluptate laboriosam.</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur alias doloremque magni impedit tempora quia tenetur culpa, nihil veritatis deserunt, rem sunt explicabo voluptatem placeat necessitatibus quisquam minus, nam omnis!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam aliquid laboriosam accusantium distinctio rerum atque reiciendis quos ab ipsa aliquam dolor, minima assumenda modi cupiditate. Rem neque voluptate laboriosam.</p>
