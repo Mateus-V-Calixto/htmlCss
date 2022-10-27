@@ -29,6 +29,8 @@ body{
     border-radius: 10px;
     margin-bottom: 10px;
     box-shadow: 0 0 10px 0 rgba(22, 22, 22, 0.534);
+    border: 4px solid white;
+    
 }
 
 h2{
@@ -79,4 +81,14 @@ img{
 .botao:hover{
     background-color: #12da12;
     transition: 1s;
+}
+
+
+.select{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 0 rgba(22, 22, 22, 0.534);
+    border:4px solid #0b940b ;
 }
